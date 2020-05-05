@@ -1,0 +1,197 @@
+.headerNav a:nth-of-type(6) {
+  color: #fc6447;
+}
+h1 {
+  width: 1000px;
+  text-align: center;
+  margin: 50px auto;
+}
+li {
+  list-style: none;
+}
+.commodityList .commodityNav {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+.commodityList .commodityNav a {
+  display: inline-block;
+  width: 168px;
+  text-align: center;
+  padding-bottom: 15px;
+  font-size: 20px;
+  color: #c0c0be;
+}
+.commodityList .commodityNav a:hover {
+  color: #fc6447;
+}
+.commodityList .commodityNav .active {
+  color: #fc6447;
+  border-bottom: 3px solid #fc6447;
+}
+.commodityList .contentBox {
+  background-color: #f7f7f7;
+  width: 100%;
+  padding-top: 25px;
+}
+.commodityList .content {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+}
+.commodityList .section {
+  width: 700px;
+  margin-right: 30px;
+}
+.commodityList .section .reportBox {
+  padding-bottom: 10px;
+}
+.commodityList .section .reportBox > a {
+  display: block;
+}
+.commodityList .section .report {
+  margin-bottom: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-sizing: border-box;
+  width: 700px;
+  height: 414px;
+  position: relative;
+}
+.commodityList .section .report:hover img {
+  animation: flash 3s  ease infinite;
+}
+.commodityList .section .report img {
+  width: 100%;
+  height: 100%;
+}
+.commodityList .section .titleBox {
+  box-sizing: border-box;
+  padding: 25px;
+  position: absolute;
+  width: 100%;
+  height: 117px;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.commodityList .section .titleBox .title {
+  color: #4a4e54;
+  margin-bottom: 30px;
+}
+.commodityList .section .titleBox .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.commodityList .section .titleBox .news {
+  display: flex;
+}
+.commodityList .section .titleBox .news i {
+  border-radius: 50%;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(../imgs/icon/tx.jpg) no-repeat;
+  background-size: cover;
+  margin-right: 10px;
+}
+.commodityList .section .titleBox .news .name {
+  color: #fc5334;
+  margin-right: 10px;
+}
+.commodityList .section .titleBox .news .day {
+  color: #c0bbbd;
+}
+.commodityList .section .titleBox .comment i {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 2px;
+}
+.commodityList .section .titleBox .comment span {
+  margin-right: 3px;
+  color: #dad7d3;
+}
+.commodityList .section .titleBox .comment .collection i {
+  background: url(../imgs/icon/xin.png) no-repeat;
+  background-size: contain;
+}
+.commodityList .section .titleBox .comment .comment i {
+  background: url(../imgs/icon/reply.png) no-repeat;
+  background-size: contain;
+}
+.commodityList .section .about {
+  border: 1px solid gainsboro;
+  width: 700px;
+  color: #c0bbbd;
+  text-align: center;
+  padding: 15px 0;
+}
+.commodityList .aside {
+  width: 270px;
+}
+.commodityList .aside dl {
+  margin-bottom: 50px;
+}
+.commodityList .aside dl h5 {
+  font-size: 17px;
+}
+.commodityList .aside dl dt {
+  margin: 10px 0;
+}
+.commodityList .aside dl dt:nth-of-type(1) {
+  margin-top: 0 ;
+  font-size: 20px;
+  border-left: 6px solid #fb5441;
+  text-indent: 25px;
+}
+.commodityList .aside dl dd {
+  color: #a5a4a6;
+  font-size: 14px;
+}
+.load {
+  text-align: center;
+  width: 100%;
+  display: block;
+  margin: 20px 0;
+  color: #fe4048;
+  left: 700px;
+  border: none;
+  background: none;
+  outline: none;
+}
+.load:hover {
+  cursor: pointer;
+}
+.load .iconDown {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: url(../imgs/icon/more.png) 0px 6px no-repeat;
+}
+.load .iconLoad {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(../imgs/icon/loading-icon.gif) 0px 0px no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+@keyframes flash {
+  0% {
+    opacity: 0.8;
+  }
+  20% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  70% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0.8;
+  }
+}

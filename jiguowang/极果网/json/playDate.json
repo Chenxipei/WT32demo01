@@ -1,0 +1,531 @@
+{
+    "categorylist":[
+        {
+            "phead":"生活",
+            "tulist":[
+                {
+                    "limg":"cat_1.png",
+                    "discr":"空气净化器",
+					"count":21
+                },
+                {
+                    "limg":"cat_2.png",
+                    "discr":"吸尘器",
+					"count":21
+                },
+                {
+                    "limg":"cat_3.png",
+                    "discr":"扫地机器人",
+					"count":21
+                },
+                {
+                    "limg":"cat_4.png",
+                    "discr":"电风扇",
+					"count":21
+                },
+                {
+                    "limg":"cat_5.png",
+                    "discr":"净水壶",
+					"count":21
+                },
+                {
+                    "limg":"cat_6.png",
+                    "discr":"电饭煲",
+					"count":21
+                },
+                {
+                    "limg":"cat_7.png",
+                    "discr":"咖啡机",
+					"count":21
+                },
+                {
+                    "limg":"cat_8.png",
+                    "discr":"原汁机",
+					"count":21
+                }
+            ],
+            "zilist":[
+				{
+                    "limg":"cat_8.png",
+                    "discr":"电视",
+					"count":21
+                },
+				{
+                    "limg":"cat_8.png",
+                    "discr":"空调",
+					"count":23
+                }]
+        },
+        {
+            "phead":"个人护理",
+            "tulist":[
+                {
+                    "limg":"cat_9.png",
+                    "discr":"电动牙刷",
+					"count":21
+                },
+                {
+                    "limg":"cat_10.png",
+                    "discr":"剃须刀",
+					"count":21
+                },
+                {
+                    "limg":"cat_11.png",
+                    "discr":"按摩器",
+					"count":21
+                }
+            ],
+            "zilist":[
+				{	
+                    "limg":"cat_8.png",
+                    "discr":"冲牙器",
+					"count":21
+                },
+				{
+                    "limg":"cat_8.png",
+                    "discr":"洁面仪",
+					"count":23
+                },
+				{	
+                    "limg":"cat_8.png",
+                    "discr":"蒸面器",
+					"count":21
+                },
+				{
+                    "limg":"cat_8.png",
+                    "discr":"加湿器",
+					"count":23
+                } 
+            ]
+        },
+        {
+            "phead":"健康",
+            "tulist":[
+                {
+                    "limg":"cat_1.png",
+                    "discr":"电动牙刷",
+					"count":21
+                },
+                {
+                    "limg":"cat_2.png",
+                    "discr":"剃须刀",
+					"count":21
+                },
+                {
+                    "limg":"cat_3.png",
+                    "discr":"按摩器",
+					"count":21
+                }
+            ],
+            "zilist":[
+				{	
+                    "limg":"cat_8.png",
+                    "discr":"冲牙器",
+					"count":21
+                },
+				{
+                    "limg":"cat_8.png",
+                    "discr":"洁面仪",
+					"count":23
+                },
+				{	
+                    "limg":"cat_8.png",
+                    "discr":"蒸面器",
+					"count":21
+                },
+				{
+                    "limg":"cat_8.png",
+                    "discr":"加湿器",
+					"count":23
+                }  
+            ]
+        },
+        {
+            "phead":"智能穿戴",
+            "tulist":[
+                {
+                    "limg":"cat_9.png",
+                    "discr":"电动牙刷",
+					"count":21
+                },
+                {
+                    "limg":"cat_4.png",
+                    "discr":"剃须刀",
+					"count":21
+                },
+                {
+                    "limg":"cat_5.png",
+                    "discr":"按摩器",
+					"count":21
+                },{
+                    "limg":"cat_6.png",
+                    "discr":"电动牙刷",
+					"count":21
+                },
+                {
+                    "limg":"cat_7.png",
+                    "discr":"剃须刀",
+					"count":21
+                },
+                {
+                    "limg":"cat_8.png",
+                    "discr":"按摩器",
+					"count":21
+                }
+            ],
+            "zilist":[
+                {	
+                    "limg":"cat_8.png",
+                    "discr":"冲牙器",
+					"count":21
+                },
+				{
+                    "limg":"cat_8.png",
+                    "discr":"洁面仪",
+					"count":23
+                } 
+            ]
+        },
+        {
+            "phead":"出行",
+            "tulist":[
+                {
+                    "limg":"cat_11.png",
+                    "discr":"电动牙刷",
+					"count":21
+                },
+                {
+                    "limg":"cat_2.png",
+                    "discr":"剃须刀",
+					"count":21
+                },
+                {
+                    "limg":"cat_9.png",
+                    "discr":"按摩器",
+					"count":21
+                }
+            ],
+            "zilist":[
+               {	
+                    "limg":"cat_8.png",
+                    "discr":"冲牙器",
+					"count":21
+                } 
+            ]
+        },
+        {
+            "phead":"运动户外",
+            "tulist":[
+                {
+                    "limg":"cat_10.png",
+                    "discr":"电动牙刷",
+					"count":21
+                },
+                {
+                    "limg":"cat_8.png",
+                    "discr":"剃须刀",
+					"count":21
+                },
+                {
+                    "limg":"cat_5.png",
+                    "discr":"按摩器",
+					"count":21
+                }
+            ],
+            "zilist":[
+                {	
+                    "limg":"cat_8.png",
+                    "discr":"冲牙器",
+					"count":21
+                },
+				{
+                    "limg":"cat_8.png",
+                    "discr":"洁面仪",
+					"count":23
+                }, 
+				{
+                    "limg":"cat_8.png",
+                    "discr":"加湿器",
+					"count":23
+                } 
+            ]
+        },
+        {
+            "phead":"摄影",
+            "tulist":[
+                {
+                    "limg":"cat_3.png",
+                    "discr":"电动牙刷",
+					"count":21
+                },
+                {
+                    "limg":"cat_2.png",
+                    "discr":"剃须刀",
+					"count":21
+                },
+                {
+                    "limg":"cat_9.png",
+                    "discr":"按摩器",
+					"count":21
+                }
+            ],
+            "zilist":[
+                {	
+                    "limg":"cat_8.png",
+                    "discr":"冲牙器",
+					"count":21
+                },
+				{
+                    "limg":"cat_8.png",
+                    "discr":"加湿器",
+					"count":23
+                } 
+            ]
+        },
+        {
+            "phead":"手机",
+            "tulist":[
+                {
+                    "limg":"cat_11.png",
+                    "discr":"电动牙刷",
+					"count":21
+                }
+            ],
+            "zilist":[
+                {	
+                    "limg":"cat_8.png",
+                    "discr":"冲牙器",
+					"count":21
+                } 
+            ]
+        }
+    ],
+
+    "zuixin":[
+        {
+            "title": "SCIO 微型光谱仪",
+            "introduce":"可以测定食物成分及营养",
+            "jiage":"￥1212",
+            "imgSrc": "k1.jpg",
+            "collection": 3,
+            "comment": 3
+        },
+        {
+            "title": "B&O BeoSound 35 音响",
+            "introduce":"支持所有音乐流媒体服务",
+            "jiage":"￥512",
+            "imgSrc": "k2.jpg",
+            "collection": 3,
+            "comment": 3
+        },
+        {
+            "title": "Mobii 触控吸色笔",
+            "introduce":"能吸取65000种颜色",
+            "jiage":"￥暂无",
+            "imgSrc": "k3.jpg",
+            "collection": 3,
+            "comment": 3
+        },
+        {
+            "title": "xplorer 2航拍飞行器",
+            "introduce":"搭载自动避障系统",
+            "jiage":"￥433",
+            "imgSrc": "k4.jpg",
+            "collection": 3,
+            "comment": 3
+        }, {
+            "title": "SCIO 微型光谱仪",
+            "introduce":"可以测定食物成分及营养",
+            "jiage":"￥1212",
+            "imgSrc": "k1.jpg",
+            "collection": 3,
+            "comment": 3
+        },
+        {
+            "title": "B&O BeoSound 35 音响",
+            "introduce":"支持所有音乐流媒体服务",
+            "jiage":"￥512",
+            "imgSrc": "k2.jpg",
+            "collection": 3,
+            "comment": 3
+        },
+        {
+            "title": "Mobii 触控吸色笔",
+            "introduce":"能吸取65000种颜色",
+            "jiage":"￥暂无",
+            "imgSrc": "k3.jpg",
+            "collection": 3,
+            "comment": 3
+        },
+        {
+            "title": "xplorer 2航拍飞行器",
+            "introduce":"搭载自动避障系统",
+            "jiage":"￥433",
+            "imgSrc": "k4.jpg",
+            "collection": 3,
+            "comment": 3
+        }, {
+            "title": "SCIO 微型光谱仪",
+            "introduce":"可以测定食物成分及营养",
+            "jiage":"￥1212",
+            "imgSrc": "k1.jpg",
+            "collection": 3,
+            "comment": 3
+        },
+        {
+            "title": "B&O BeoSound 35 音响",
+            "introduce":"支持所有音乐流媒体服务",
+            "jiage":"￥512",
+            "imgSrc": "k2.jpg",
+            "collection": 3,
+            "comment": 3
+        },
+        {
+            "title": "Mobii 触控吸色笔",
+            "introduce":"能吸取65000种颜色",
+            "jiage":"￥暂无",
+            "imgSrc": "k3.jpg",
+            "collection": 3,
+            "comment": 3
+        },
+        {
+            "title": "xplorer 2航拍飞行器",
+            "introduce":"搭载自动避障系统",
+            "jiage":"￥433",
+            "imgSrc": "k4.jpg",
+            "collection": 3,
+            "comment": 3
+        },
+        {
+            "title": "SCIO 微型光谱仪",
+            "introduce":"可以测定食物成分及营养",
+            "jiage":"￥1212",
+            "imgSrc": "k1.jpg",
+            "collection": 3,
+            "comment": 3
+        },
+        {
+            "title": "B&O BeoSound 35 音响",
+            "introduce":"支持所有音乐流媒体服务",
+            "jiage":"￥512",
+            "imgSrc": "k2.jpg",
+            "collection": 3,
+            "comment": 3
+        },
+        {
+            "title": "Mobii 触控吸色笔",
+            "introduce":"能吸取65000种颜色",
+            "jiage":"￥暂无",
+            "imgSrc": "k3.jpg",
+            "collection": 3,
+            "comment": 3
+        },
+        {
+            "title": "xplorer 2航拍飞行器",
+            "introduce":"搭载自动避障系统",
+            "jiage":"￥433",
+            "imgSrc": "k4.jpg",
+            "collection": 3,
+            "comment": 3
+        }
+    ],
+    "zuier":[
+        {
+            "title": "xplorer 2航拍飞行器",
+            "introduce":"搭载自动避障系统",
+            "jiage":"￥433",
+            "imgSrc": "k4.jpg",
+            "collection": 3,
+            "comment": 3
+        },
+        {
+            "title": "SCIO 微型光谱仪",
+            "introduce":"可以测定食物成分及营养",
+            "jiage":"￥1212",
+            "imgSrc": "k1.jpg",
+            "collection": 3,
+            "comment": 3
+        },
+        {
+            "title": "B&O BeoSound 35 音响",
+            "introduce":"支持所有音乐流媒体服务",
+            "jiage":"￥512",
+            "imgSrc": "k2.jpg",
+            "collection": 3,
+            "comment": 3
+        },
+        {
+            "title": "Mobii 触控吸色笔",
+            "introduce":"能吸取65000种颜色",
+            "jiage":"￥暂无",
+            "imgSrc": "k3.jpg",
+            "collection": 3,
+            "comment": 3
+        },
+        {
+            "title": "B&O BeoSound 35 音响",
+            "introduce":"支持所有音乐流媒体服务",
+            "jiage":"￥512",
+            "imgSrc": "k2.jpg",
+            "collection": 3,
+            "comment": 3
+        },
+        {
+            "title": "Mobii 触控吸色笔",
+            "introduce":"能吸取65000种颜色",
+            "jiage":"￥暂无",
+            "imgSrc": "k3.jpg",
+            "collection": 3,
+            "comment": 3
+        },
+        {
+            "title": "Mobii 触控吸色笔",
+            "introduce":"能吸取65000种颜色",
+            "jiage":"￥暂无",
+            "imgSrc": "k3.jpg",
+            "collection": 3,
+            "comment": 3
+        },
+         {
+            "title": "SCIO 微型光谱仪",
+            "introduce":"可以测定食物成分及营养",
+            "jiage":"￥1212",
+            "imgSrc": "k1.jpg",
+            "collection": 3,
+            "comment": 3
+        },
+        {
+            "title": "B&O BeoSound 35 音响",
+            "introduce":"支持所有音乐流媒体服务",
+            "jiage":"￥512",
+            "imgSrc": "k2.jpg",
+            "collection": 3,
+            "comment": 3
+        },
+        {
+            "title": "Mobii 触控吸色笔",
+            "introduce":"能吸取65000种颜色",
+            "jiage":"￥暂无",
+            "imgSrc": "k3.jpg",
+            "collection": 3,
+            "comment": 3
+        },
+        {
+            "title": "Mobii 触控吸色笔",
+            "introduce":"能吸取65000种颜色",
+            "jiage":"￥暂无",
+            "imgSrc": "k3.jpg",
+            "collection": 3,
+            "comment": 3
+        },
+         {
+            "title": "SCIO 微型光谱仪",
+            "introduce":"可以测定食物成分及营养",
+            "jiage":"￥1212",
+            "imgSrc": "k1.jpg",
+            "collection": 3,
+            "comment": 3
+        }
+        
+    ]
+}

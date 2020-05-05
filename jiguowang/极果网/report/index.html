@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/report.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="box">
+            <nav class="headerNav">
+                <a href="#" class="logo"><img src="../imgs/img/logonew.png" alt=""></a>
+                <a href="#">首页</a>
+                <a href="../play/index.html">酷玩</a>
+                <a href="../guid/index.html">导购</a>
+                <a href="#">使用</a>
+                <a href="./index.html">报告</a>
+            </nav>
+            <div class="right">
+                <a href="#" class="search"></a>
+                <a href="#" class="register">注册</a>
+            </div>
+        </div>
+    </header>
+    <h1>体检报告</h1>
+    <div class="commodityList">
+        <div class="commodityNav">
+            <a href="index.html" class="active">最新</a>
+            <a href="hot.html">最热</a>
+        </div>
+        <div class="contentBox">
+            <div class="content">
+                <div class="section">
+
+                </div>
+                <aside class="aside">
+                    <dl>
+                        <dt>极果体验师</dt>
+                        <dd><img src="../imgs/img/tiyanImg.jpg" alt=""></dd>
+                        <dt>
+                            <h5>福利</h5>
+                        </dt>
+                        <dd>第一时间体验新品，大众试用优先通过，还有定向邀请试用，新品玩到手软！</dd>
+                        <dt>
+                            <h5>要求</h5>
+                        </dt>
+                        <dd>是某个领域的大神级玩家，在社交网络或圈子里有大影响力，善写作会拍摄。</dd>
+                        <dt>
+                            <h5>申请</h5>
+                        </dt>
+                        <dd>
+                            1. 关注极果公众号：jguojguo
+                            （或扫描下方二维码）
+                        </dd>
+                        <dd>
+                            2. 在公众号内回复：体验师
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>关注我们</dt>
+                        <dd><img src="../imgs/img/myCode.jpg" alt=""></dd>
+                    </dl>
+                </aside>
+            </div>
+
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footerBox">
+            <div><img src="../imgs/img/code.png" alt=""></div>
+            <div class="boxR">
+                <div class=" list list1">
+                    <h5><img src="../imgs/img/logoImg.jpg" alt=""></h5>
+                    <p><a href="#">全球酷玩使用导购平台</a></p>
+                    <p><a href="#">酷·新奇·好玩·品质</a></p>
+                    <p><a href="#">微信添加“JguoJguo”</a></p>
+                    <p><a href="#">获取我们的服务</a></p>
+                </div>
+                <div class=" list">
+                    <h5><a href="../help.html">免费试用</a></h5>
+                    <p><a href="#">试用流程</a></p>
+                    <p><a href="#">如何提高成功率</a></p>
+                </div>
+                <div class=" list">
+                    <h5>友情链接</h5>
+                    <p><a href="#">智东西</a></p>
+                    <p><a href="#">搜狐IT</a></p>
+                    <p><a href="#">搜狐数码</a></p>
+                    <p><a href="#">凤凰科技</a></p>
+                    <p><a href="#">PConline</a></p>
+                    <p><a href="#">3W加菲</a></p>
+                    <p><a href="#">亿觅emie</a></p>
+                    <p><a href="#">易迅易启玩</a></p>
+                </div>
+                <div class=" list list2">
+                    <p><a href="#">WEIBUSI</a></p>
+                    <p><a href="#">腾讯科技</a></p>
+                    <p><a href="#">泡泡网</a></p>
+                    <p><a href="#">ZUK社区</a></p>
+                    <p><a href="#">极客公园</a></p>
+                    <p><a href="#">果库</a></p>
+                    <p><a href="#">易迅易启玩</a></p>
+                </div>
+                <div class=" list">
+                    <h5>购买攻略</h5>
+                    <p><a href="#">美亚海淘教程</a></p>
+                    <p><a href="#">日亚海淘教程</a></p>
+                    <p><a href="#">海淘转运教程</a></p>
+                    <p><a href="#">kickstaarter 众筹购买攻略</a></p>
+                    <p><a href="#">indiegogo 众筹购买攻略</a></p>
+                </div>
+                <div class=" list">
+                    <h5>厂商合作</h5>
+                    <p><a href="#">关于极果</a></p>
+                    <p><a href="#">联系我们</a></p>
+                    <p><a href="#">商务合作 ：BD@jiguo.com</a></p>
+                    <p><a href="#">CEO邮箱 ：CEO@jiguo.com</a></p>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="banquan"> &copy; 2016 极果版权所有</a>
+    </footer>
+</body>
+
+</html>
+<script src="../js/jquery.min.js"></script>
+
+<script>
+    $(function () {
+        Promise.resolve(
+            $.ajax({
+                url: "../json/report.json",
+                dataType: "json"
+            })
+        ).then(res => {
+            let reportStr = '';
+            res.product.forEach(item => {
+                reportStr += `
+            <div class="reportBox">
+                        <a href="#" class="report">
+                            <img src="../imgs/img/${item.imgSrc}" alt="">
+                            <div class="titleBox">
+                                <p class="title">${item.title}</p>
+                                <div class="bottom">
+                                    <div class="news">
+                                        <i class="head"></i>
+                                        <span class="name">${item.name}</span>
+                                        <span class="day">${item.day}</span>
+                                    </div>
+                                    <div class="comment">
+                                        <span class="collection"><i></i>${item.collection}</span>
+                                        <span class="comment"><i></i>${item.comment}</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="about">
+                            ${item.about}
+                        </a>
+                    </div>
+                </div> 
+                         `
+            });
+            let loStr = `<div class="load" ><i class="iconDown"></i> 点击加载更多</div>`
+            $('.section').html(reportStr)
+            $('.section .reportBox').last('.reportBox').after(loStr)
+            $('.section .load').click(function () {
+                $(this).find('i').removeClass('iconDown').addClass('iconLoad')
+            })
+        })
+
+
+    })
+</script>

@@ -1,0 +1,82 @@
+{
+    "product":[
+        {
+            "imgSrc":"bg1.jpg",
+            "title":"空气净化器里面学问多得惊呆你，你选对了吗？",
+            "name":" 苏苏",
+            "day":"2016-01-25",
+            "collection":3,
+            "comment":3,
+            "about":"关于格林威特空气净化器还有 4 篇报告，点击查看"
+        },
+        {
+            "imgSrc":"bg2.jpg",
+            "title":"云马智行车 C1小巧清新，简洁流畅的线条为城市骑行增添一抹亮丽色彩",
+            "name":" 苏苏",
+            "day":"2016-01-25",
+            "collection":3,
+            "comment":3,
+            "about":"关于云马智行车 C1还有 8 篇报告，点击查看"
+        },
+        {
+            "imgSrc":"bg3.jpg",
+            "title":"怎么骑都不会累的智能自行车：云马 C1试骑体验",
+            "name":" 苏苏",
+            "day":"2016-01-25",
+            "collection":3,
+            "comment":3,
+            "about":"关于云马智行车 C1还有 8 篇报告，点击查看"
+        },
+        {
+            "imgSrc":"bg4.jpg",
+            "title":"声音不是最优秀，但它形音完美的结合，足够打动人心",
+            "name":" 苏苏",
+            "day":"2016-01-25",
+            "collection":3,
+            "comment":3,
+            "about":"关于Freeson 智能实木音箱还有 17 篇报告，点击查看"
+        }
+    ],
+    "hot":[
+        {
+            "imgSrc":"bg8.jpg",
+            "title":"声音不是最优秀，但它形音完美的结合，足够打动人心",
+            "name":" 苏苏",
+            "day":"2016-01-25",
+            "collection":3,
+            "comment":3
+        },
+        {
+            "imgSrc":"bg7.jpg",
+            "title":"风光大片信手拈来！vivo X6Plus不只是快，还是一台拍照利器",
+            "name":" 苏苏",
+            "day":"2016-01-25",
+            "collection":3,
+            "comment":3
+        },
+        {
+            "imgSrc":"bg6.jpg",
+            "title":"空气净化器里面学问多得惊呆你，你选对了吗？",
+            "name":" 苏苏",
+            "day":"2016-01-25",
+            "collection":3,
+            "comment":3
+        },
+        {
+            "imgSrc":"bg5.jpg",
+            "title":"到底有没有完美的iPhone手机配件，答案都在这里",
+            "name":" 苏苏",
+            "day":"2016-01-25",
+            "collection":3,
+            "comment":3
+        },
+        {
+            "imgSrc":"hot5.jpg",
+            "title":"风光大片信手拈来！vivo X6Plus不只是快，还是一台拍照利器",
+            "name":" 苏苏",
+            "day":"2016-01-25",
+            "collection":3,
+            "comment":3
+        }
+    ]
+}

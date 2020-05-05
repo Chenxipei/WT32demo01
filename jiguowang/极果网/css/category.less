@@ -1,0 +1,84 @@
+.headerNav{
+    a{
+        &:nth-of-type(3){
+            color: #fc6447;
+        }
+    }
+}
+h1{
+    width: 1000px;
+    text-align: center;
+    margin: 50px auto;
+}
+.commodityList{
+    .commodityNav{
+        width: 1000px;
+        margin: 0 auto;
+       text-align: center;
+        a{
+            display: inline-block;
+            width: 168px;
+            text-align: center;
+            padding-bottom: 15px;
+            font-size: 20px;
+            color: #c0c0be;
+           &:hover{
+            color: #fc6447;
+           } 
+           
+        }
+        .active{
+            color: #fc6447;
+            border-bottom: 3px solid #fc6447;
+        }
+    }
+    .classify{
+        box-sizing: border-box;
+        background-color: #f7f7f7;
+        padding: 25px 0;
+        .classifyBox{
+            box-sizing: border-box;
+            padding: 20px 0;
+            margin: 0 auto;
+            background-color: #ffffff;
+            width: 1000px;
+            margin-bottom: 35px;
+            .title{
+                text-indent: 20px;
+                border-left: 5px solid #f95343;
+                margin-bottom: 20px;
+            }
+            div{
+                box-sizing: border-box;
+                padding: 20px 0;
+                display: flex;
+                flex-wrap: wrap;
+                width: 100%;
+                padding-right: 60px;
+            }
+            a{
+                width: 115px;
+                color: #99a3a0;
+                font-size: 13px;
+                margin-left: 30px;
+                margin-bottom: 15px;
+                &:hover{
+                    color: #fc6447;
+                }
+                img{
+                    width: 100px;
+                    height: 100px;
+                }
+                p{
+                    margin-top: 10px;
+                    text-align: center;
+                }
+            }
+            .top{
+                border-bottom: 1px dashed gainsboro;
+               
+            }
+           
+        }
+    }
+}

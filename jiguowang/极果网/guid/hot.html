@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/guid.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="box">
+            <nav class="headerNav">
+                <a href="#" class="logo"><img src="../imgs/img/logonew.png" alt=""></a>
+                <a href="#">首页</a>
+                <a href="../play/index.html">酷玩</a>
+                <a href="./guid/index.html">导购</a>
+                <a href="#">使用</a>
+                <a href="../report/index.html">报告</a>
+            </nav>
+            <div class="right">
+                <a href="#" class="search"></a>
+                <a href="#" class="register">注册</a>
+            </div>
+        </div>
+    </header>
+    <h1>导购清单</h1>
+    <div class="commodityList">
+        <div class="commodityNav">
+            <a href="index.html">最新</a><a href="hot.html">最热</a>
+        </div>
+        <div class="listBox">
+            <div class="commodityBox"> </div>
+            <a href="#" class="load"><i class="iconDown"></i> 点击加载更多</a>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footerBox">
+            <div><img src="../imgs/img/code.png" alt=""></div>
+            <div class="boxR">
+                <div class=" list list1">
+                    <h5><img src="../imgs/img/logoImg.jpg" alt=""></h5>
+                    <p><a href="#">全球酷玩使用导购平台</a></p>
+                    <p><a href="#">酷·新奇·好玩·品质</a></p>
+                    <p><a href="#">微信添加“JguoJguo”</a></p>
+                    <p><a href="#">获取我们的服务</a></p>
+                </div>
+                <div class=" list">
+                    <h5><a href="../help.html">免费试用</a></h5>
+                    <p><a href="#">试用流程</a></p>
+                    <p><a href="#">如何提高成功率</a></p>
+                </div>
+                <div class=" list">
+                    <h5>友情链接</h5>
+                    <p><a href="#">智东西</a></p>
+                    <p><a href="#">搜狐IT</a></p>
+                    <p><a href="#">搜狐数码</a></p>
+                    <p><a href="#">凤凰科技</a></p>
+                    <p><a href="#">PConline</a></p>
+                    <p><a href="#">3W加菲</a></p>
+                    <p><a href="#">亿觅emie</a></p>
+                    <p><a href="#">易迅易启玩</a></p>
+                </div>
+                <div class=" list list2">
+                    <p><a href="#">WEIBUSI</a></p>
+                    <p><a href="#">腾讯科技</a></p>
+                    <p><a href="#">泡泡网</a></p>
+                    <p><a href="#">ZUK社区</a></p>
+                    <p><a href="#">极客公园</a></p>
+                    <p><a href="#">果库</a></p>
+                    <p><a href="#">易迅易启玩</a></p>
+                </div>
+                <div class=" list">
+                    <h5>购买攻略</h5>
+                    <p><a href="#">美亚海淘教程</a></p>
+                    <p><a href="#">日亚海淘教程</a></p>
+                    <p><a href="#">海淘转运教程</a></p>
+                    <p><a href="#">kickstaarter 众筹购买攻略</a></p>
+                    <p><a href="#">indiegogo 众筹购买攻略</a></p>
+                </div>
+                <div class=" list">
+                    <h5>厂商合作</h5>
+                    <p><a href="#">关于极果</a></p>
+                    <p><a href="#">联系我们</a></p>
+                    <p><a href="#">商务合作 ：BD@jiguo.com</a></p>
+                    <p><a href="#">CEO邮箱 ：CEO@jiguo.com</a></p>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="banquan">&nbsp;2016 极果版权所有</a>
+    </footer>
+</body>
+<script src="../js/jquery.min.js"></script>
+<script>
+    $(function () {
+        $.ajax({
+            url: '../json/guid.json',
+            dataType: 'json',
+            success(data) {
+                let str = ''
+                data.lists2.forEach(item => {
+                    str +=
+                        `
+                        <a href="#" class="commodity">
+                        <img src="../imgs/img/${item.imgSrc}" alt="">
+                        <div class="text">
+                            <p>${item.title}</p>
+                            <div class="bottom">
+                            <span class="collection"><i></i>${item.collection}</span>
+                            <span class="comment"><i></i>${item.comment}</span>
+                            </div>
+                        </div>
+                        <div class="iconBottom"></div>
+                    </a>
+                    `
+                });
+               
+                $('.commodityBox').append(str)
+            }
+        })
+        $('.commodityNav >a').removeClass('active').eq(1).addClass('active')
+        $('.load').click(function () {
+            $(this).find('i').removeClass('iconDown').addClass('iconLoad')
+        })
+    })
+</script>
+
+</html>

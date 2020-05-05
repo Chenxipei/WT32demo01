@@ -1,0 +1,106 @@
+.commodityList {
+  padding: 20px 20px;
+  background-color: #f7f7f7;
+}
+.commodityList .listBox {
+  box-sizing: border-box;
+  padding: 25px 0;
+  background-color: #f7f7f7;
+}
+.commodityList .listBox .commodityBox {
+  margin: 0 auto;
+  width: 1000px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.commodityList .listBox .commodity {
+  display: flex;
+  width: 220px;
+  height: 240px;
+  flex-direction: column;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 25px;
+}
+.commodityList .listBox .commodity:hover img {
+  animation: flash 3s  infinite;
+}
+.commodityList .listBox .commodity img {
+  width: 100%;
+  height: 130px;
+}
+.commodityList .listBox .commodity .text {
+  padding: 10px;
+  color: #726f72;
+  background-color: #fff;
+  font-size: 14px;
+}
+.commodityList .listBox .commodity .text .introduce {
+  color: #bcc1bd;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+.commodityList .listBox .commodity .text .bottom {
+  font-size: 12px;
+  display: flex;
+  left: 152px;
+  justify-content: space-between;
+}
+.commodityList .listBox .commodity .text .bottom .jiage {
+  color: #f04a4c;
+}
+.commodityList .listBox .commodity .text .bottom i {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 2px;
+}
+.commodityList .listBox .commodity .text .bottom span {
+  margin-right: 3px;
+  color: #dad7d3;
+}
+.commodityList .listBox .commodity .text .bottom .collection i {
+  background: url(../imgs/icon/xin.png) no-repeat;
+  background-size: contain;
+}
+.commodityList .listBox .commodity .text .bottom .comment i {
+  background: url(../imgs/icon/reply.png) no-repeat;
+  background-size: contain;
+}
+.commodityList .listBox .commodity .iconBottom {
+  position: absolute;
+  width: 100%;
+  height: 10px;
+  background: url(../imgs/icon/listbg.jpg) no-repeat #f7f7f7;
+  bottom: 10px;
+}
+.commodityList .listBox .load {
+  text-align: center;
+  width: 100%;
+  display: block;
+  margin: 10px 0;
+  color: #fe4048;
+  left: 700px;
+  border: none;
+  background: none;
+  outline: none;
+}
+.commodityList .listBox .load:hover {
+  cursor: pointer;
+}
+.commodityList .listBox .load .iconDown {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: url(../imgs/icon/more.png) 0px 6px no-repeat;
+}
+.commodityList .listBox .load .iconLoad {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(../imgs/icon/loading-icon.gif) 0px 0px no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
