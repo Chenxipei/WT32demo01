@@ -98,12 +98,12 @@ body {
 }
 .footer .list h5 {
   margin-bottom: 25px;
-  color: #fff;
+  color: red;
   font-weight: normal;
   font-size: 17px;
 }
 .footer .list h5 a {
-  color: #fff;
+  color: red;
   font-size: 17px;
 }
 .footer .list1 p:nth-of-type(2) {
