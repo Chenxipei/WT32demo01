@@ -118,3 +118,7 @@ body {
   position: relative;
   left: 700px;
 }
+.footer .list p a{
+  color: seagreen;
+}
+
